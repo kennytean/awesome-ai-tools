@@ -563,6 +563,7 @@ This section covers the latest AI-driven robots, ranging from quadruped robotic 
 - [manifest.build](https://manifest.build/) - The backend AI can generate, developers can trust!
 - [Learnly AI](https://learnlyai.co.uk/) - AI-powered academic assistant for students with note-taking, essay writing, and presentation generation.
 - [Domain Generator](https://freedomaingenerator.com/) - Free AI domain generator with availability check and price comparison
+- [Iteration Layer](https://iterationlayer.com) - Composable content processing APIs for document extraction, image transformation, and image, document & sheet generation.
 
 ---
 ## 🦞 OpenClaw Ecosystem
