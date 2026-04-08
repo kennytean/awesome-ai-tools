@@ -26,28 +26,36 @@
   </a>
 </p>
 
-Welcome to this extensive collection of tools and resources covering a broad range of applications in the world of artificial intelligence (AI) and machine learning (ML). This list encompasses a variety of categories, including educational resources specific to AI and ML, advanced tools for photo and video generation, chatbots, language models, and essential tools for GPU renting, and more.
+Welcome to a curated collection of tools, models, and platforms across the rapidly evolving landscape of artificial intelligence (AI) and machine learning (ML). This repository has been actively maintained since 2023 and aims to provide a reliable, up-to-date reference for the AI ecosystem.
 
-The compilation aims to serve as a handy reference for enthusiasts, professionals, and learners in the AI and ML community. Whether you're looking for resources to deepen your understanding, tools to enhance your projects, or just exploring the capabilities of AI, you're likely to find something of interest here.
+This repository focuses on the most relevant systems across:
+- large language models (LLMs)
+- multimodal generation (image, video, audio)
+- AI agents and automation
+- developer platforms and APIs
+- infrastructure and supporting tools
+
+It is designed as a practical resource for developers, professionals, and enthusiasts looking to explore tools, understand the ecosystem, and build real-world AI applications.
 
 ### A Living, Community-Driven Guide
 
-This list is a dynamic resource, constantly updated to capture the latest in the fast-paced world of AI. It's curated from community suggestions, extensive research, and with a little help from AI to cover the vast landscape.
+This is a dynamic resource, continuously updated to reflect the fast-moving AI landscape. It is curated through community contributions, ongoing research, and iterative cleanup to maintain a high-signal and relevant collection.
 
 **Please Note:**
 
-- **Independence:** This is an independent, community project. We are not affiliated with, sponsored by, or endorsing any of the tools listed.
-- **Accuracy:** The AI world moves incredibly fast! While we strive for accuracy, links can break and information (like free student campaigns) can become outdated. Please verify details on the official sites.
-- **Due Diligence:** This list contains a mix of consumer and enterprise tools. We have not tested every tool. You are advised to conduct your own research and use these tools at your own discretion.
+- **Independence:** This is an independent, community-driven project. We are not affiliated with, sponsored by, or endorsing any of the tools listed.
+- **Accuracy:** The AI space evolves rapidly. Links, pricing, and features may change — always verify details on official sources.
+- **Due diligence:** Tools vary in quality, safety, and maturity. Please conduct your own research before using them.
+- **No guarantees:** Some tools may be outdated, low quality, or unreliable — always double-check.
+   
 > **Ready to contribute?**
-
-> Before you do, please take a moment to read our [Contribution Guidelines](./CONTRIBUTING.md).  
-> This helps keep the list consistent and saves everyone time.
+> Before contributing, please review the [Contribution Guidelines](./CONTRIBUTING.md).  
+> This helps keep the list consistent and high quality.
 
 > **Note:** The repository is currently undergoing a quality review and cleanup phase.  
-> Submissions are still welcome, but may be reviewed more selectively, and low-effort or duplicate pull requests may be closed.
+> Submissions are still welcome, but low-effort or duplicate pull requests may be declined.
 
-Found a broken link or an amazing new tool we missed? Feel free to [open an issue](https://github.com/eudk/awesome-ai-tools/issues) or [submit a pull request](https://github.com/eudk/awesome-ai-tools/pulls).
+Found a broken link or something missing? Feel free to [open an issue](https://github.com/eudk/awesome-ai-tools/issues) or [submit a pull request](https://github.com/eudk/awesome-ai-tools/pulls).
 
 <a name="top"></a>
 
@@ -58,21 +66,26 @@ Found a broken link or an amazing new tool we missed? Feel free to [open an issu
 </a>
 <br><br>
 
-### 🔗 Navigation
-
 ## 🔗 Navigation Table
 
 | Category                                                                          | Description                                                                   |
 | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| [👑 The Big Players: Foundational Models](#-the-big-players-foundational-models)  | In-depth look at the titans of AI: OpenAI, Google, Anthropic, Meta & Mistral. |
+| [🧠 Major AI Platforms & Model Ecosystems](#-major-ai-platforms--model-ecosystems) | Overview of leading AI platforms and model ecosystems including OpenAI, Google, Anthropic, Meta, Mistral, and xAI. |
+| [🤖 OpenAI](#openai) | GPT models, ChatGPT, Codex, and OpenAI’s API ecosystem. |
+| [🔍 Google](#google) | Gemini models, Veo, Imagen, and Google’s AI ecosystem. |
+| [🤖 xAI / Grok](#xai-grok) | Grok models, real-time data integration, and multi-agent systems. |
+| [🧠 Anthropic](#anthropic) | Claude models focused on long-context reasoning and reliability. |
+| [💻 Claude Code](#claude-code) | Agentic coding system built for full software engineering workflows. |
+| [🧑‍💻 OpenAI Codex](#openai-codex) | Autonomous coding agent for development, debugging, and workflows. |
 | [🇨🇳 Leading Chinese AI Models](#-leading-chinese-ai-models)                       | Powerful and popular large language models from China.                        |
 | [🪦 AI Graveyard](./AI_GRAVEYARD.md) | Discontinued, retired, or replaced AI tools and models |
 | [🦞 OpenClaw Ecosystem](#-openclaw-ecosystem) | OpenClaw, ZeroClaw and related autonomous AI agent frameworks. |
+| [🤖 Other AI Agents](#other-ai-agents) | Collection of notable AI agent frameworks and autonomous systems beyond the major ecosystems. |
+| [🛠️ AI Agent Tools](#ai-agent-tools) | Supporting tools, libraries, and research resources for building and running AI agents. |
 | [🎓 Free Stuff for Students & Educators](#-free-stuff-for-students--educators)    | Free access to professional-grade tools, software, and cloud credits.         |
 | [🚀 New and Emerging AI Tools](#-new-and-emerging-ai-tools)                       | The latest AI tools gaining popularity and traction in the industry.          |
 | [🤖 AI-Driven Robots and Robotic Dogs](#-ai-driven-robots-and-robotic-dogs)       | Cutting-edge robotics powered by AI.                                          |
 | [🤖 AI-Related Tools](#-ai-related-tools)                                         | Miscellaneous tools leveraging AI technology.                                 |
-| [OpenAI](#openai)                                                                 | Models, tools, and subscriptions from OpenAI.                                 |
 | [🆕 Additional AI and Productivity Tools](#-additional-ai-and-productivity-tools) | New AI tools and services for productivity and innovation.                    |
 | [💾 GPU Rental Services](#-gpu-rental-services-for-large-language-models)         | Services for renting GPUs to train and deploy AI models.                      |
 | [🌐 Chrome Extensions](#-list-of-google-chrome-extensions)                        | Useful AI-powered Chrome extensions.                                          |
@@ -115,11 +128,11 @@ Found a broken link or an amazing new tool we missed? Feel free to [open an issu
 
 ---
 
-## 👑 The Big Players: Foundational Models
+## 🧠 Major AI Platforms & Model Ecosystems
 
 [🔝 Back to Top](#top)
 
-This section highlights cutting-edge AI tools widely utilized by professionals across various industries. These tools represent the forefront of AI technology, offering unmatched capabilities for a wide range of applications.
+This section covers the leading AI platforms and model ecosystems used globally, including both proprietary and open-weight systems. These platforms provide state-of-the-art capabilities across reasoning, coding, multimodal generation, and agent-based workflows.
 
 ---
 
@@ -131,22 +144,72 @@ This section highlights cutting-edge AI tools widely utilized by professionals a
   </a>
 </p>
 
-A leader in AI research and deployment, OpenAI is the creator of the GPT series, DALL-E, and Sora. They set the pace for the industry with cutting-edge, large-scale models.
 
-- **[ChatGPT](https://chat.openai.com/)** - The primary platform for accessing OpenAI's models.
-- **Flagship Model: GPT-5** - A powerful, unified system featuring a smart, efficient model for most queries and a deeper reasoning model (`GPT-5 thinking`) for complex problems. It boasts state-of-the-art performance in coding, writing, and visual understanding.
+A leading AI company focused on advanced multimodal and agent-based systems. OpenAI develops ChatGPT and a widely used API platform for text, image, audio, and computer-use models.
 
-- **Specialized Models**:
-  - **o1 (Omni-1)**: A family of models focused on superior reasoning and logical deduction, available to Pro subscribers.
-  - **DALL-E 3**: The image generation model known for its exceptional prompt adherence and integration within ChatGPT.
-  - **Sora**: A revolutionary text-to-video model capable of generating high-fidelity, cinematic scenes.
-  - **Sora 2**: The next-generation upgrade, offering longer video durations, improved realism, and advanced scene control.
+- **[ChatGPT](https://chat.openai.com/)** - The primary interface for interacting with OpenAI models, supporting chat, coding, data analysis, and agent workflows.
+
+- **Flagship Models (Current)**:
+  - **GPT-5.4** – OpenAI’s most capable model for reasoning, coding, and complex tasks.
+  - **GPT-5.4 Pro** – Higher-performance variant for demanding workloads.
+  - **GPT-5.4 Mini / Nano** – Optimized for speed, cost-efficiency, and scale.
+
+- **Model Direction**:
+  - GPT-5.4 consolidates reasoning, coding, and agent capabilities into a unified system.
+  - Earlier variants are being phased out or absorbed into the GPT-5.x family.
+
+- **Multimodal & Specialized Models**:
+  - **gpt-image-1** – Current image generation model with strong editing and prompt adherence.
+  - **gpt-realtime / gpt-audio** – Models for speech, transcription, and real-time interaction.
+
+- **API Platform**:
+  - Supports **Responses API** and **Chat Completions API**
+  - Key capabilities:
+    - Tool / function calling
+    - Structured outputs
+    - Agent workflows (computer use, automation)
+    - Long-context support (large token windows depending on model)
+
 - **Pricing Tiers**:
-  - **Free**: Generous access to GPT-4o.
-  - **Plus/Pro**: Higher usage limits, priority access, and access to GPT-5 and advanced data analysis features.
-  - **API**: Pay-as-you-go access for developers to integrate OpenAI models into their own applications.
-  - **TEAM tier**: All Plus features, plus a larger context window, collaboration tools, and administrative controls for organizations.
+  - **Free** – Limited ChatGPT usage
+  - **Plus (~$20/month)** – Higher limits and access to more capable models
+  - **Pro (~$200/month)** – Maximum access, higher limits, and priority performance
+  - **API** – Pay-as-you-go access across all model families
+### OpenAI Codex
 
+<p>
+  <a href="https://openai.com/codex" target="_blank">
+    <img src="https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/9bc3f606fcceff406082118e9d9a8fb4/codex_share-image_v1.png?w=1600&h=900&fit=fill" alt="OpenAI Codex Logo" width="150"/>
+  </a>
+</p>
+
+OpenAI Codex is an agent-based coding system built on top of the latest GPT-5 model family. It has evolved from a code-generation model into a full software engineering platform capable of writing, editing, running, and reviewing code autonomously.
+
+- **[Codex](https://openai.com/codex)** - OpenAI’s platform for agentic coding workflows and automated software development tasks.
+
+- **Core Models**:
+  - **GPT-5 Codex** – Specialized coding model optimized for large codebases, debugging, and multi-step development workflows  
+  - **Codex variants (fast / low-latency)** – Optimized versions for interactive coding and rapid iteration  
+
+- **Capabilities**:
+  - **Full codebase understanding** – Reads, edits, and navigates large repositories  
+  - **Autonomous development tasks** – Can implement features, refactor code, and manage workflows  
+  - **Testing & debugging** – Runs tests, identifies issues, and proposes fixes  
+  - **Tool & environment interaction** – Works with terminals, files, and developer tools  
+  - **Parallel execution** – Handles multiple coding tasks simultaneously  
+
+- **Agent Platform**:
+  - Runs tasks in **sandboxed environments** with access to project files  
+  - Supports long-running and multi-step workflows  
+  - Available via:
+    - ChatGPT (agent workflows)  
+    - CLI tools  
+    - Developer integrations  
+
+- **Positioning**:
+  - A shift from “code assistant” → **autonomous software engineering agent**  
+  - Competes with tools like Claude Code and GitHub Copilot Agents  
+  - Increasingly integrated into the broader OpenAI ecosystem (ChatGPT + API)
 ---
 
 ### Google
@@ -157,22 +220,153 @@ A leader in AI research and deployment, OpenAI is the creator of the GPT series,
   </a>
 </p>
 
-Google is a powerhouse in AI research and infrastructure, developing the Gemini family of models and integrating AI deeply into its entire product ecosystem, from Search to Workspace to Cloud.
+Google is a powerhouse in AI research and infrastructure, building the Gemini family and integrating AI deeply across Search, Workspace, Android, Cloud, and creative tools.
 
-- **[Google Gemini](https://gemini.google.com/)** - The main conversational interface (formerly Bard) for interacting with Gemini models.
-- **Flagship Model: Gemini 2.0** - The latest family of natively multimodal models, built for massive scale and a wide range of tasks.
-  - **Gemini 2.0 Ultra**: The largest and most capable model, designed for highly complex tasks, excelling at long-context understanding and video analysis.
-  - **Gemini 2.0 Pro**: The high-performance, versatile model that powers most Google products and services.
-  - **Gemini 2.0 Flash**: A lightweight and extremely fast model optimized for speed and efficiency with a 1M token context window.
+- **[Google Gemini](https://gemini.google.com/)** - Google’s main conversational interface for interacting with its latest AI models.
+
+- **Flagship Models**:
+  - **Gemini 3** – Google’s current top model family for reasoning, planning, coding, and multimodal tasks.
+  - **Gemini 3.1 Pro** – Higher-end version for complex workflows, stronger reasoning, and demanding real-world tasks.
+  - **Gemini 3 Flash** – Faster, lighter model optimized for speed and everyday use.
+  - **Gemini 3.1 Flash Live** – Built for more natural real-time audio and live multimodal interaction.
+
+- **Creative Models**:
+  - **Veo 3 / 3.1** – Google’s current video generation models, with stronger control, better consistency, and native audio support.
+  - **Imagen 4** – Google’s latest image generation family, focused on higher quality, stronger prompt adherence, and fast / ultra variants.
+  - **Lyria 3 / Lyria 3 Pro** – Google’s latest generative music models for creating custom tracks and soundtracks.
+
+- **Open / Local Models**:
+  - **Gemma 4** – Google’s newest open model family, built for advanced reasoning and agentic workflows, and designed to run well on consumer GPUs.
+  - **Gemma 3 / 3n** – Earlier lightweight open models still relevant for efficient and local-first deployments.
+  - **FunctionGemma / ShieldGemma / EmbeddingGemma** – Specialized open models for tool use, safety classification, and embeddings.
+
 - **Key Features**:
-  - **Native Multimodality**: Can understand and process text, images, audio, and video seamlessly in a single architecture.
-  - **Massive Context Window**: Capable of processing millions of tokens, allowing for analysis of entire codebases or video libraries.
-  - **Ecosystem Integration**: Deeply embedded in Google Search (AI Overviews), Google Workspace (Help me write/organize), and Google Photos.
-- **Developer Platform**: **[Vertex AI](https://cloud.google.com/vertex-ai)** on Google Cloud offers enterprise-grade access to Gemini models, along with a full suite of MLOps tools for building and deploying custom AI solutions.
+  - **Native multimodality** – Strong support across text, image, audio, and video.
+  - **Massive context** – Built for long-context reasoning and large-scale document / code analysis.
+  - **Deep ecosystem integration** – Embedded across Google Search, Workspace, Android, Cloud, and creative products.
+  - **Creative tooling** – Google now has serious first-party image, video, and music generation instead of only chat-focused models.
+
+- **Developer Platform**:
+  - **[Vertex AI](https://cloud.google.com/vertex-ai)** - Google Cloud’s enterprise AI platform for accessing Gemini, Imagen, Veo, Gemma, embeddings, and broader MLOps tooling.
+  - **Google AI Studio** - Lightweight environment for quickly testing Gemini and other Google models.
+
+---
+## xAI Grok 
+[🔝 Back to Top](#top)
+
+xAI develops the Grok family of models and multimodal systems, with a focus on real-time information, reasoning, and large-scale deployment. The ecosystem is tightly integrated with the X platform and accessible via API.
+
+<p align="center">
+  <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2026/01/Grok_logo.png" width="420"/>
+</p>
+
+- **[xAI](https://x.ai/)** — Company → [News](https://x.ai/news) · [API docs](https://docs.x.ai/) · [API console](https://console.x.ai/) · [GitHub](https://github.com/xai-org)  
+- **[grok.com](https://grok.com/)** — Main chat interface (web, iOS, Android), also integrated into X  
 
 ---
 
+### Models
+
+- **Grok 4.2 (latest API models)** — Current flagship generation  
+  - Includes:
+    - `grok-4.2-0309-reasoning`  
+    - `grok-4.2-0309-non-reasoning`  
+    - `grok-4.2-0309-multi-agent-0309`  
+  - Supports **reasoning, non-reasoning, and multi-agent modes**  
+  - Up to **~2M token context**  
+  - Designed for coding, math, and complex workflows  
+
+- **Grok 4 Heavy** — Advanced variant  
+  - Uses **multi-agent parallel reasoning** for harder problems  
+  - Highest capability tier (via subscription tiers)  
+
+- **Grok 4.1 Fast variants** — Optimized models  
+  - `grok-4-1-fast-reasoning`  
+  - `grok-4-1-fast-non-reasoning`  
+  - Designed for **low latency and cost-sensitive workloads**  
+
+- **Grok 3** — Previous generation  
+  - Introduced DeepSearch, Think mode, and large-scale training  
+
+- **Grok 1** — Open-weight release  
+  - ~314B MoE base model  
+  - Apache 2.0 → [Hugging Face](https://huggingface.co/xai-org/grok-1)  
+
+---
+
+### Multimodal
+
+- **Grok Imagine** — Image + video generation system  
+  - Models:
+    - `grok-imagine-image` ($0.02 / image)  
+    - `grok-imagine-image-pro` ($0.07 / image)  
+    - `grok-imagine-video` ($0.05 / second)  
+  - Supports generation + editing workflows  
+  - Available via API and Grok interface  
+
+- **Aurora** — Internal multimodal model  
+  - Powers image + video generation  
+  - Focus on photorealism + multimodal input  
+
+---
+
+### Agent & Platform Capabilities
+
+- **Real-time data integration** — Native access to live web + X data  
+- **Agent workflows** — Tool use, browsing, multi-step execution  
+- **Multi-agent systems** — Exposed via `multi-agent` model variants  
+- **Tooling**:
+  - Web search  
+  - Code execution  
+  - Retrieval / document processing  
+
+---
+
+### API Pricing (USD, official)
+
+- **Grok 4.2 (all variants)**:
+  - **$2.00 / 1M input tokens**  
+  - **$6.00 / 1M output tokens**  
+
+- **Grok 4.1 Fast**:
+  - **$0.20 / 1M input**  
+  - **$0.50 / 1M output**  
+
+- **Voice / Audio**:
+  - Voice Agent API — ~$0.05 / min (~$3/hour)  
+  - Text-to-Speech — ~$4.20 / 1M characters  
+
+---
+
+### Subscriptions & Plans
+
+- **Free tier**
+  - Limited queries and features  
+
+- **SuperGrok (~$30/month)**
+  - Full Grok access  
+  - Higher limits and priority usage  
+
+- **SuperGrok Heavy (~$300/month)**
+  - Access to **Grok Heavy (multi-agent)**  
+  - Maximum limits and advanced features  
+
+- **X Premium (~$8/month)**
+  - Limited Grok access  
+
+- **X Premium+ (~$40/month)**
+  - Full Grok access bundled with X features  
+
+- **Grok Business**
+  - Team-based access (seat pricing)  
+
+- **Enterprise**
+  - Custom pricing / deployment  
+
+
+---
 ### Anthropic
+[🔝 Back to Top](#top)
 
 <p>
   <a href="https://www.anthropic.com" target="_blank">
@@ -180,21 +374,90 @@ Google is a powerhouse in AI research and infrastructure, developing the Gemini 
   </a>
 </p>
 
-Founded with a focus on AI safety and alignment, Anthropic develops the Claude family of models, which are renowned for their reliability, large context windows, and "Constitutional AI" training approach.
+Anthropic focuses on building reliable, interpretable, and safety-aligned AI systems. It develops the Claude family of models, widely used for long-context reasoning, coding, and enterprise workflows.
 
-- **[Claude.ai](https://claude.ai/)** - The official web interface for interacting with Claude models.
-- **Flagship Model: Claude 4** - The latest generation of models, praised for their nuanced understanding, reduced hallucination rates, and exceptional performance on enterprise tasks.
-  - **Claude 4 Opus**: The most powerful model, rivaling GPT-5 and Gemini 2.0 Ultra, ideal for complex analysis, research, and creative writing.
-  - **Claude 4 Sonnet**: A balanced model offering the perfect blend of performance and speed, with a "hybrid reasoning" approach for efficiency.
-  - **Claude 3.5 Haiku**: An extremely fast and cost-effective model designed for instant responsiveness in applications like customer support chatbots.
+- **[Claude.ai](https://claude.ai/)** - The main interface for interacting with Claude models, supporting chat, documents, coding, and agent-style workflows.
+
+- **Current Models (Primary)**:
+  - **Claude Opus 4.6** – Most capable model for deep reasoning, coding, and long-running agent workflows  
+  - **Claude Sonnet 4.6** – Default model balancing performance, speed, and cost  
+  - **Claude Haiku 4.5** – Fastest model optimized for quick responses and high-throughput tasks  
+
+- **Still Available / Selectable Models**:
+  - **Claude Opus 4.5** – Previous flagship, still available for compatibility and specific workloads  
+  - **Claude Sonnet 4.5** – Earlier balanced model, widely used in production systems  
+  - **Claude Opus 3** – Legacy high-capability model, still accessible in some environments  
+
+- **Capabilities**:
+  - **Up to ~1M token context window** – Enables processing of very large documents, codebases, and multi-step workflows  
+  - **Extended thinking mode** – Optional deeper reasoning for complex tasks  
+  - **Agent workflows** – Designed for multi-step execution, tool use, and long-running processes  
+
+- **Model Structure**:
+  - **Opus** – Maximum capability and reasoning depth  
+  - **Sonnet** – Balanced performance and efficiency  
+  - **Haiku** – Speed and low latency  
+
+- **Next-Generation (Restricted)**:
+  - **Claude Mythos** – Internal / restricted model tier beyond Opus  
+  - Not publicly released due to safety concerns  
+  - Reported to significantly exceed current models in reasoning, coding, and vulnerability discovery  
+
 - **Key Differentiators**:
-  - **AI Safety**: Trained with a "constitution" of principles to ensure helpfulness and harmlessness.
-  - **Industry-Leading Context Window**: Capable of processing context windows of up to 1 million tokens, making it ideal for analyzing lengthy documents, contracts, and financial reports.
-  - **Enterprise Focus**: Highly trusted for business applications where reliability and predictability are critical.
+  - **Constitutional AI** – Safety-first training approach  
+  - **Industry-leading long context** – Strong performance on large inputs  
+  - **Enterprise reliability** – Consistent, structured outputs for real-world workflows  
 
+### Claude Code
+
+<p>
+  <a href="https://claude.com/product/claude-code" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/1920px-Claude_AI_logo.svg.png" alt="Claude Code Logo" width="150"/>
+  </a>
+</p>
+
+Claude Code is Anthropic’s agentic coding system designed to handle full software engineering workflows. Unlike traditional code assistants, it operates directly inside your development environment and can execute multi-step tasks autonomously.
+
+- **[Claude Code](https://claude.com/product/claude-code)** – AI coding agent that works in your terminal, IDE, or cloud environment.
+
+- **Core Models**:
+  - Built on **Claude Opus 4.6**, **Sonnet 4.6**, and **Haiku 4.5** depending on task complexity and performance needs :contentReference[oaicite:0]{index=0}  
+
+- **Capabilities**:
+  - **Full codebase understanding** – Reads and maps entire repositories automatically :contentReference[oaicite:1]{index=1}  
+  - **Multi-file editing** – Makes coordinated changes across large codebases  
+  - **Autonomous workflows** – Can implement features, fix bugs, and handle tasks end-to-end :contentReference[oaicite:2]{index=2}  
+  - **Command execution** – Runs terminal commands, scripts, and developer tools :contentReference[oaicite:3]{index=3}  
+  - **Tool integration** – Works with Git, CI/CD, databases, and external services :contentReference[oaicite:4]{index=4}  
+  - **Parallel agents** – Supports multi-agent workflows (e.g. automated code review systems) :contentReference[oaicite:5]{index=5}  
+
+- **Interfaces & Usage**:
+  - Terminal (primary interface)  
+  - VS Code / JetBrains integrations  
+  - Web interface  
+  - Slack / team workflows :contentReference[oaicite:6]{index=6}  
+
+- **Agent System**:
+  - Uses **tool-based execution** (files, shell, APIs, web)  
+  - Supports **long-running tasks and multi-step reasoning**  
+  - Can operate with **memory/context across workflows**  
+
+- **Platform Features**:
+  - **Code Review (multi-agent)** – Automatically reviews pull requests using parallel agents :contentReference[oaicite:7]{index=7}  
+  - **GitHub / GitLab integration** – Reads issues, writes code, and opens PRs  
+  - **Configurable agent behavior** – Supports custom “skills” and workflows  
+
+- **Positioning**:
+  - A shift from “code assistant” → **autonomous software engineering agent**  
+  - Competes directly with:
+    - OpenAI Codex  
+    - Cursor (agent mode)  
+    - GitHub Copilot Agents  
+  - Particularly strong in **long-context coding and large codebase understanding**
 ---
 
 ### Meta AI
+[🔝 Back to Top](#top)
 
 <p>
   <a href="https://ai.meta.com" target="_blank">
@@ -202,21 +465,44 @@ Founded with a focus on AI safety and alignment, Anthropic develops the Claude f
   </a>
 </p>
 
-Meta is the leading champion of open-source AI, driving innovation and accessibility with its powerful Llama series of models. They believe in an open ecosystem where developers can build upon and customize foundational AI.
+Meta is a leading force in open-weight AI, focused on making powerful foundation models widely accessible. Its Llama family is one of the most adopted model ecosystems for local, research, and commercial use.
 
-- **[Meta Llama](https://ai.meta.com/llama/)** - The official hub for Llama models and research.
-- **Flagship Open Model: Llama 4** - The state-of-the-art in open-source AI. A natively multimodal model with a mixture-of-experts architecture for enhanced performance.
-  - **Model Sizes**: Available in various parameter counts, including highly efficient **17B** models (`Maverick` and `Scout`) that can run on consumer devices, up to massive foundation models.
-  - **Variants**: Includes versions fine-tuned for following complex instructions and specialized **Code Llama** models for programming.
-- **Platform & Accessibility**:
-  - **Hugging Face**: The primary platform for downloading and using Llama models.
-  - **Cloud Platforms**: Easily deployable on AWS, Azure, and Google Cloud.
-  - **Local Execution**: Can be run locally on powerful consumer or pro-grade hardware using tools like **[Ollama](https://ollama.com/)** and **[LM Studio](https://lmstudio.ai/)**.
-- **[Meta AI Assistant](https://www.meta.ai/)**: An AI assistant integrated across Meta's apps (WhatsApp, Instagram, Messenger) powered by the latest Llama models.
+- **[Meta Llama](https://ai.meta.com/llama/)** - Official hub for Llama models, research, and releases.
+
+- **Flagship Models (Current)**:
+  - **Llama 3.1** – Current production-grade model family with strong performance in reasoning, coding, and multilingual tasks  
+  - **Llama 3.1 405B** – Meta’s largest open-weight model, competitive with top proprietary models  
+  - **Llama 3.1 70B / 8B** – Smaller variants optimized for performance vs efficiency trade-offs  
+
+- **Multimodal Models**:
+  - **Llama 3.2 Vision** – Adds image understanding capabilities on top of the Llama architecture  
+  - *(Meta is actively expanding multimodal support, but text models remain the primary focus)*  
+
+- **Specialized Models**:
+  - **Code Llama (legacy)** – Earlier coding-focused models, still used but largely superseded by newer Llama 3.x models  
+  - **Instruct / Chat variants** – Fine-tuned versions for conversational and task-oriented use  
+
+- **Open-Weight Strategy**:
+  - Models are released with weights (not fully open-source, but widely usable)  
+  - Can be fine-tuned, self-hosted, and deployed without API dependency  
+  - Strong ecosystem across Hugging Face and local inference tools  
+
+- **Local & Deployment Ecosystem**:
+  - Runs locally on consumer and enterprise hardware depending on size  
+  - Common tooling:
+    - **[Ollama](https://ollama.com/)**  
+    - **[LM Studio](https://lmstudio.ai/)**  
+    - **vLLM / Text Generation Inference (TGI)**  
+  - Supported across major cloud providers (AWS, Azure, GCP)  
+
+- **Meta AI Assistant**:
+  - **[Meta AI](https://www.meta.ai/)** – Integrated assistant across WhatsApp, Instagram, Messenger, and web  
+  - Powered by latest Llama models and Meta’s internal systems  
 
 ---
 
 ### Mistral AI
+[🔝 Back to Top](#top)
 
 <p>
   <a href="https://mistral.ai" target="_blank">
@@ -224,45 +510,204 @@ Meta is the leading champion of open-source AI, driving innovation and accessibi
   </a>
 </p>
 
-Based in Paris 🇪🇺, Mistral AI has quickly become a European powerhouse, producing highly efficient and powerful models in both open-weight and commercial formats. They are known for their technical excellence and novel architectures.
+Based in Paris 🇪🇺, Mistral AI is a leading European AI company focused on efficient, high-performance models across open-weight and commercial offerings. It has rapidly expanded into a full-stack AI platform including multimodal, reasoning, coding, and audio systems.
 
-- **[Le Chat](https://chat.mistral.ai/)** - Mistral's official conversational AI interface.
-- **Commercial Models**:
-  - **Mistral Large 2**: Their flagship proprietary model, offering top-tier performance that competes directly with the best closed-source models, available via API.
-- **Open-Weight Models**:
-  - **Mixtral 8x22B**: A powerful and popular open model that uses a sparse Mixture-of-Experts (MoE) architecture for greater efficiency.
-  - **Codestral**: A state-of-the-art, open-weight model specifically designed for code generation, completion, and reasoning, supporting a wide range of programming languages.
-  - **Mistral 7B**: A highly capable small model, considered one of the best in its class for performance on a limited hardware budget.
+- **[Le Chat](https://chat.mistral.ai/)** - Mistral’s official conversational interface.
+
+- **Flagship Models (Current)**:
+  - **Mistral Large 3** – State-of-the-art open-weight flagship model with multimodal capabilities, mixture-of-experts architecture, and strong reasoning performance  
+  - **Mistral Medium 3.x** – Frontier-class model optimized for enterprise use with strong performance at lower cost  
+  - **Mistral Small 3.x / 4** – Efficient general-purpose models combining reasoning, instruction-following, and coding  
+
+- **Open / Edge Models (Ministral)**:
+  - **Ministral 3 (3B / 8B / 14B)** – Lightweight multimodal models designed for local deployment and edge devices  
+  - Strong focus on running efficiently on consumer hardware and embedded systems  
+
+- **Reasoning Models (Magistral)**:
+  - **Magistral Medium / Small** – Dedicated reasoning models designed for chain-of-thought and structured problem solving  
+
+- **Coding Models**:
+  - **Codestral** – Core code generation and completion model  
+  - **Devstral 2** – Agentic coding model designed for multi-step software engineering tasks  
+
+- **Audio & Multimodal**:
+  - **Voxtral** – Speech understanding and transcription models (including realtime variants)  
+  - **OCR models** – Document understanding and structured extraction  
+
+- **Older / Still Used Models**:
+  - **Mixtral (8x7B / 8x22B)** – Earlier MoE models, still widely used but no longer flagship  
+  - **Mistral 7B** – Legacy lightweight model, now mostly replaced by newer small models  
+
+- **Platform & Ecosystem**:
+  - **La Plateforme (API)** – Full developer platform for building agents and applications  
+  - Strong support for:
+    - Hugging Face  
+    - Self-hosted inference (vLLM, TGI, Ollama)  
+    - Cloud deployment (AWS, Azure, GCP)  
+
 - **Key Strengths**:
-  - **Efficiency**: Mistral models are known for providing exceptional performance for their size, making them easier and cheaper to run.
-  - **Open-Source Commitment**: A strong contributor to the open-source community, regularly releasing powerful models with permissive licenses.
-
+  - **Efficiency-first engineering** – High performance per compute cost  
+  - **Open-weight leadership in Europe** – Major alternative to US/China AI providers  
+  - **Full-stack expansion** – Now covers text, code, audio, vision, and agents  
 ---
 
 ## 🇨🇳 Leading Chinese AI Models
+[🔝 Back to Top](#top)
 
-This section showcases the most prominent and powerful large language models developed by Chinese technology companies and research labs.
+This section covers several of the most important AI model ecosystems developed by Chinese labs and cloud platforms, including their current flagship models, API pricing, and paid plans where publicly documented.
 
-- **[ERNIE (文心一言)](https://yiyan.baidu.com/)** - Developed by **Baidu**, the ERNIE (Enhanced Representation through Knowledge Integration) series is one of China's leading models.
-  - **Model**: **ERNIE 4.0** is a powerful multimodal model with strong capabilities in language understanding, generation, and reasoning, deeply integrated into Baidu's search engine.
+---
 
-- **[Qwen (通义千问)](https://qwen.aliyun.com/)** - Developed by **Alibaba Cloud**, the Qwen series includes both powerful closed models and popular open-source versions.
-  - **Models**: **Qwen2.5** (flagship proprietary model) and the open-source **Qwen2** family (ranging from 0.5B to 72B parameters), which are known for their strong multilingual performance and are available on Hugging Face.
+### Qwen
 
-- **[GLM (智谱清言)](https://chatglm.cn/)** - Developed by **Zhipu AI**, spun out of Tsinghua University.
-  - **Model**: **GLM-4** is a bilingual (Chinese/English) model that excels at complex instruction following and long-form conversation. It is accessible via their ChatGLM platform.
+<p>
+  <a href="https://chat.qwenlm.ai/" target="_blank">
+    <img src="https://www.searchyour.ai/archivos/qwen-ai-logo.jpg" alt="Qwen Logo" width="150"/>
+  </a>
+</p>
 
-- **[Hunyuan (混元)](https://hunyuan.tencent.com/)** - Developed by **Tencent**, the Hunyuan AI model is integrated across Tencent's ecosystem (e.g., WeChat, Tencent Cloud).
-  - **Model**: A large-scale, multi-modal model capable of text generation, image creation, and understanding complex contexts.
+Developed by Alibaba Cloud, Qwen spans consumer chat, commercial APIs, open-weight models, coding models, and multimodal systems.
 
-- **[Kimi (月之暗面)](https://kimi.ai/)** - Developed by **Moonshot AI**, Kimi is famous for its extremely large context window, capable of processing millions of tokens.
-  - **Feature**: Excels at summarizing and analyzing very long documents, books, and codebases in a single prompt.
+- **[Qwen Chat](https://chat.qwenlm.ai/)** – Main interface for interacting with Qwen models.
+- **Commercial / API models**:
+  - **[qwen-max](https://www.alibabacloud.com/help/en/model-studio/model-pricing)** – High-end general model
+  - **[qwen3-max](https://www.alibabacloud.com/help/en/model-studio/model-pricing)** – Newer reasoning-capable model with thinking and non-thinking modes
+  - **[qwen-plus](https://www.alibabacloud.com/help/en/model-studio/model-pricing)** – Balanced production model
+  - **[qwen-flash](https://www.alibabacloud.com/help/en/model-studio/model-pricing)** / **[qwen3.5-flash](https://www.alibabacloud.com/help/en/model-studio/model-pricing)** – Lower-cost / faster models
+- **Open-weight models**:
+  - **[Qwen3](https://github.com/QwenLM/Qwen3)**
+  - **[Qwen3.5](https://github.com/QwenLM/Qwen3.5)**
+  - **[Qwen2.5](https://qwenlm.github.io/blog/qwen2.5/)**
+- **Specialized models**:
+  - **[Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder)** – Coding-focused family
+  - **[Qwen3-VL](https://github.com/QwenLM/Qwen3-VL)** – Vision-language models
+  - **[Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni)** – Unified multimodal family
+  - **[Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS)** – Speech / voice generation
+- **API Pricing (USD, official)**:
+  - **qwen-max** – **$1.60 / 1M input**, **$6.40 / 1M output**
+  - **qwen3-max** – tiered by input size; in Alibaba Cloud’s Chinese Mainland pricing it starts at **$0.359 / 1M input** and **$1.434 / 1M output** for the first 32K tokens, then rises for larger requests
+  - **qwen-plus** – in EU / Hong Kong deployment it starts at **$0.40 / 1M input**, **$1.20 / 1M thinking output**, **$4.00 / 1M non-thinking output**
+  - **qwen-flash** – **$0.05 / 1M input**, **$0.40 / 1M output** up to 256K input, then **$0.25 / 1M input**, **$2.00 / 1M output** above that
+  - **qwen3.5-flash** – starts at **$0.029 / 1M input**, **$0.287 / 1M output** for the first 128K
 
-- **[DeepSeek](https://www.deepseek.com/)** – A leading AI lab known for its powerful open-source models, especially in the coding domain.
-  - **DeepSeek-V2 Family**: A series of powerful and efficient Mixture-of-Experts (MoE) models.
-  - **DeepSeek-Coder-V2**: A state-of-the-art programming model that consistently ranks at the top of coding benchmarks for its speed and accuracy.
-  - **DeepSeek-VL**: A highly capable vision-language model for tasks involving both image and text understanding and generation.
-  - **Open-Source & API**: Provides both strong open-weight models for local and research use, as well as a competitive, OpenAI-compatible API for commercial applications.
+---
+
+### DeepSeek
+
+<p>
+  <a href="https://platform.deepseek.com/" target="_blank">
+    <img src="https://play-lh.googleusercontent.com/d2zqBFBEymSZKaVg_dRo1gh3hBFn7_Kl9rO74xkDmnJeLgDW0MoJD3cUx0QzZN6jdsg=w240-h480-rw" alt="DeepSeek Logo" width="150"/>
+  </a>
+</p>
+
+DeepSeek focuses on low-cost reasoning and strong developer adoption, with a simple public API surface and major open-weight releases.
+
+- **[DeepSeek Platform](https://platform.deepseek.com/)** – API and playground
+- **Core API models**:
+  - **[deepseek-chat](https://api-docs.deepseek.com/quick_start/pricing)** – currently mapped to **DeepSeek-V3.2** non-thinking mode
+  - **[deepseek-reasoner](https://api-docs.deepseek.com/quick_start/pricing)** – currently mapped to **DeepSeek-V3.2** thinking mode
+- **Open / research models**:
+  - **[DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)**
+  - **[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)**
+  - **[DeepSeek-VL2](https://github.com/deepseek-ai/DeepSeek-VL2)**
+  - **[Janus / Janus-Pro](https://github.com/deepseek-ai/Janus)**
+- **API Pricing (USD, official)**:
+  - **Input (cache hit)** – **$0.028 / 1M tokens**
+  - **Input (cache miss)** – **$0.28 / 1M tokens**
+  - **Output** – **$0.42 / 1M tokens**
+- **Capabilities**:
+  - **128K context** on the public API endpoints
+  - Thinking mode, tool calls, JSON output, and OpenAI-compatible API usage
+- **Plans / subscriptions**:
+  - **No subscription tiers**
+  - **No tiered pricing plans**
+  - Usage is prepaid / top-up based
+- **Positioning**:
+  - One of the cheapest serious APIs on the market
+  - Especially attractive for reasoning, coding, and cost-sensitive agent workflows
+
+---
+
+### Kimi
+
+<p>
+  <a href="https://www.kimi.com/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/87/Kimi-logo-2025.png" alt="Kimi Logo" width="150"/>
+  </a>
+</p>
+
+Kimi (Moonshot AI) focuses on long-context work, coding, multimodal input, and agent-based workflows.
+
+- **[Kimi](https://www.kimi.com/)** – Main consumer interface
+- **[Kimi API Platform](https://platform.kimi.ai/)** – Developer platform
+- **Current models**:
+  - **[kimi-k2.5](https://platform.kimi.ai/docs/pricing/chat-k25)** – flagship multimodal model
+  - **[kimi-k2-0905-preview](https://platform.kimi.ai/docs/pricing/chat-k2)** – latest K2 preview
+  - **[kimi-k2-thinking](https://platform.kimi.ai/docs/pricing/chat-k2)** – reasoning / thinking variant
+  - **[moonshot-v1](https://platform.kimi.ai/docs/pricing/chat-v1)** – older general-purpose family
+- **API Pricing (USD, official)**:
+  - **kimi-k2.5** – **$0.10 / 1M input (cache hit)**, **$0.60 / 1M input (cache miss)**, **$3.00 / 1M output**
+  - **kimi-k2-0905-preview** – **$0.15 / 1M input (cache hit)**, **$0.60 / 1M input (cache miss)**, **$2.50 / 1M output**
+  - **kimi-k2-turbo-preview** – **$0.15 / 1M input (cache hit)**, **$1.15 / 1M input (cache miss)**, **$8.00 / 1M output**
+  - **kimi-k2-thinking** – **$0.15 / 1M input (cache hit)**, **$0.60 / 1M input (cache miss)**, **$2.50 / 1M output**
+  - **moonshot-v1-8k** – **$0.20 / 1M input**, **$2.00 / 1M output**
+  - **moonshot-v1-32k** – **$1.00 / 1M input**, **$3.00 / 1M output**
+  - **moonshot-v1-128k** – **$2.00 / 1M input**, **$5.00 / 1M output**
+  - **[Web search tool](https://platform.kimi.ai/docs/pricing/tools)** – **$0.005 per successful tool call**
+- **Capabilities**:
+  - **262,144-token context** on K2.5 and newer K2 variants
+  - Tool calls, JSON mode, internet search, and agent-style workflows
+- **Plans / subscriptions**:
+  - **[Kimi Membership](https://www.kimi.com/membership/pricing)** – official paid membership page
+  - A public Kimi promo/rules page currently shows **Moderato Membership at $19/month**, billed monthly, with API usage excluded and benefits including deep research, agent runs, and weekly Kimi Code quota
+  - **[Kimi Code](https://www.kimi.com/code)** is a membership benefit; its docs state quota is included with membership and no separate fee is charged
+  - **[Kimi Business](https://platform.kimi.ai/docs/pricing/faq)** exists for enterprise users via contact sales
+  - **API access** is recharge-based; **minimum recharge is $1**
+- **Positioning**:
+  - Strong for long-context work, coding, multimodal tasks, and agent workflows
+  - More productized than many rival model providers
+
+---
+
+### GLM (ChatGLM / Zhipu)
+
+<p>
+  <a href="https://chatglm.cn/" target="_blank">
+  </a>
+</p>
+
+GLM is Zhipu’s model family, aimed at reasoning, coding, agents, and enterprise deployments.
+
+- **[ChatGLM](https://chatglm.cn/)** – Main consumer interface
+- **[BigModel](https://bigmodel.cn/)** – API / platform
+- **Current models**:
+  - **[GLM-5.1](https://bigmodel.cn/)** – current flagship branding
+  - **[GLM-5](https://bigmodel.cn/pricing)** – flagship API model
+  - **[GLM-5-Turbo](https://bigmodel.cn/pricing)** – cheaper API variant
+- **API Pricing (official pricing page, CNY; approx USD at ~¥6.83 per $1)**:
+  - **GLM-5** – **¥4 / 1M input**, **¥18 / 1M output** (about **$0.59 in / $2.64 out**)
+  - **GLM-5-Turbo** – **¥5 / 1M input**, **¥22 / 1M output** (about **$0.73 in / $3.22 out**)
+
+
+---
+
+### Hunyuan
+
+<p>
+  <a href="https://hunyuan.tencent.com/" target="_blank">
+  </a>
+</p>
+
+Hunyuan is Tencent’s model platform, spanning text generation, search-enabled APIs, and broader multimodal tooling.
+
+- **[Hunyuan](https://hunyuan.tencent.com/)** – Main product site
+- **[Tencent HY / Hunyuan docs](https://www.tencentcloud.com/document/product/1284/75530)** – API overview
+- **Current direction**:
+  - Tencent positions Hunyuan as a large-scale model platform with text generation, search integration, and broader multimodal tooling
+  - Tencent also ships related products like **[Hunyuan 3D](https://3d-models.hunyuan.tencent.com/)**
+
+
+---
 
 ---
 
@@ -570,28 +1015,103 @@ This section covers the latest AI-driven robots, ranging from quadruped robotic 
 
 OpenClaw is an open-source personal AI assistant/agent that can run locally and connect to chat platforms + tools to actually execute tasks (web, shell, workflows, etc.).
 
-- **[OpenClaw](https://openclaw.ai/)** — Open-source personal AI assistant / agent framework.
-  - **Old names**: **Clawdbot** → **Moltbot** → **OpenClaw**
-  - **Core repo**: **[openclaw/openclaw](https://github.com/openclaw/openclaw)**
-
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1707995548052-cfca47bfb6db?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="420"/>
+  <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2026/02/OpenClaw_logo.png?w=600" width="420"/>
 </p>
 
-- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** — Main project repo
-- **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** – Lightweight autonomous agent framework focused on fast local execution and minimal overhead.
-- **[Docs](https://docs.openclaw.ai/)** — Official documentation
-- **[ClawHub](https://github.com/openclaw/clawhub)** — Skill directory for OpenClaw
-- **[Product Manager Skills](https://github.com/Digidai/product-manager-skills)** — ClawHub skill that turns Claude Code into an opinionated PM brain. 6 knowledge domains, 12 templates, 30+ frameworks, 32 SaaS metrics. Install: `clawhub install product-manager-skills`
-- **[openclaw/skills](https://github.com/openclaw/skills)** — Archived versions of skills from clawhub
-- **[openclaw/lobster](https://github.com/openclaw/lobster)** — OpenClaw-native workflow shell / macro engine
-- **[openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw)** — Nix packaging for OpenClaw
-- **[openclaw/openclaw-ansible](https://github.com/openclaw/openclaw-ansible)** — Automated + hardened installation playbooks
-- **[openclaw/openclaw.ai](https://github.com/openclaw/openclaw.ai)** — Website source
-- **[Security best practices](https://docs.openclaw.ai/security)** — Hardening guidance (prompt injection, permissions, isolation)
-- **[clawdbot-formal-models](https://github.com/vignesh07/clawdbot-formal-models)** — Machine-checkable security models (TLA+) originally made for Clawdbot
-- **[cloudflare/moltworker](https://github.com/cloudflare/moltworker)** — Run OpenClaw (formerly Moltbot/Clawdbot) in a Cloudflare sandbox
+### Core
+- **[OpenClaw](https://openclaw.ai/)** — Open-source personal AI assistant / agent framework  
+  - **Old names**: **Clawdbot → Moltbot → OpenClaw**  
+  - **Core repo**: **[openclaw/openclaw](https://github.com/openclaw/openclaw)**  
 
+- **[openclaw/openclaw](https://github.com/openclaw/openclaw)** — Main project repo  
+- **[Docs](https://docs.openclaw.ai/)** — Official documentation  
+
+
+
+### Ecosystem & Extensions
+- **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** – Lightweight autonomous agent framework  
+- **[ClawHub](https://github.com/openclaw/clawhub)** — Skill directory  
+- **[openclaw/skills](https://github.com/openclaw/skills)** — Archived skills  
+- **[openclaw/lobster](https://github.com/openclaw/lobster)** — Workflow shell / macro engine  
+
+- **[Product Manager Skills](https://github.com/Digidai/product-manager-skills)** — PM-focused skill pack  
+
+
+### Deployment & Infrastructure
+- **[openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw)** — Nix packaging  
+- **[openclaw/openclaw-ansible](https://github.com/openclaw/openclaw-ansible)** — Automated + hardened installs  
+- **[cloudflare/moltworker](https://github.com/cloudflare/moltworker)** — Cloudflare sandbox runtime  
+
+
+
+### Security
+- **[Security best practices](https://docs.openclaw.ai/security)** — Hardening guide  
+- **[clawdbot-formal-models](https://github.com/vignesh07/clawdbot-formal-models)** — TLA+ security models  
+
+- **[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)** — Security & privacy layer  
+  - OpenShell runtime (Landlock + seccomp + network isolation)  
+  - Policy-based network controls + privacy router  
+  - Local inference via NVIDIA Nemotron  
+  - Announced at GTC 2026  
+
+---
+
+
+## Other AI Agents
+[🔝 Back to Top](#top)
+
+A growing landscape of open-source personal agents, agent frameworks, and multi-agent systems beyond the OpenClaw ecosystem.
+
+### Personal / Always-On Agents
+
+- **[Claude Cowork](https://claude.ai/download)** *(Anthropic)* — Anthropic's desktop AI agent with a graphical interface. Persistent access to local files and apps, designed as a GUI-friendly complement to Claude Code (which is CLI-first). Launched January 2026. Closed-source / subscription.
+
+- **[Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-perplexity-computer)** *(Perplexity)* — Cloud-based autonomous agent that orchestrates multiple AI models simultaneously, routing subtasks to the best-suited model — reasoning, deep research, image/video generation, and long-context recall — and can run workflows for hours or months. Max subscribers only ($200/mo). Launched Feb 25, 2026. Also see **[Personal Computer](https://www.perplexity.ai/personal-computer-waitlist)** — a companion local agent that runs on a dedicated Mac mini with always-on access to your local files, apps, and sessions, controllable from any device. Launched March 11, 2026.
+
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** *(NousResearch)* — The self-improving AI agent. Builds reusable skills from experience and improves them during use, giving it a compounding learning loop. Persistent cross-session memory (SQLite + FTS5), multi-platform gateway (Telegram, Discord, Slack, WhatsApp, Signal, CLI), 40+ built-in tools, and RL/trajectory-generation support via Atropos. One-line install. MIT. → [Website](https://hermes-agent.nousresearch.com/) · [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) · [hermes-workspace](https://github.com/outsourc-e/hermes-workspace)
+
+- **[OpenFang](https://github.com/RightNow-AI/openfang)** — Open-source Agent Operating System built in Rust (137K LOC, 14 crates, 1,767+ tests, zero Clippy warnings). Ships as a single ~32 MB binary with 7 autonomous "Hands" that run on schedules without you prompting them (Researcher, Lead, Browser, Clip, Collector, Predictor, Twitter), 40 channel adapters, 16 security layers (WASM sandbox, Merkle audit trail, taint tracking, SSRF protection, etc.), and a FangHub skill marketplace. Apache-2.0 / MIT. → [Website](https://openfang.sh/)
+
+### General-Purpose Agent Frameworks
+
+- **[OpenManus](https://github.com/FoundationAgents/OpenManus)** — Open-source framework for building general AI agents, created by the MetaGPT team as a fully open alternative to the invite-only Manus platform. Supports multi-agent flows, browser, shell, code execution, and web search. Also see **[OpenManus-RL](https://github.com/FoundationAgents/OpenManus)** for RL-based agent fine-tuning (GRPO). MIT.
+
+- **[Manus](https://manus.im/)** *(Monica / closed)* — The original general-purpose cloud AI agent that sparked the open-source wave. Runs in a cloud Ubuntu sandbox with browser, shell, file system, and code execution. Built on Claude + Qwen under the hood. Crossed $100M ARR in 2026. Invite/subscription-based, not open-source, but listed for context.
+
+- **[AgenticSeek](https://github.com/Fosowl/agenticSeek)** — Fully local, privacy-first Manus alternative. Voice-enabled, autonomous web browsing, code writing & execution, and smart agent routing. No API costs — runs entirely on your own hardware. MIT.
+
+- **[ai-manus](https://github.com/Simpleyyt/ai-manus)** — Self-hostable Manus-style agent with sandboxed Docker environments, Terminal/Browser/File/Search tools, MCP integration, and optional OpenClaw (Claw) integration for one-click deployment.
+
+### Multi-Agent / Orchestration Frameworks
+
+- **[CrewAI](https://github.com/crewAIInc/crewAI)** — Framework for orchestrating teams of specialized AI agents. Role-based agents collaborate on complex tasks. $20M+ in VC funding. Apache-2.0.
+
+- **[LangChain](https://github.com/langchain-ai/langchain)** — One of the most widely used frameworks for building LLM-powered agents and chains. Extensive integrations. Raised $125M at $1.25B valuation (Oct 2025). MIT.
+
+- **[AutoGen](https://github.com/microsoft/autogen)** *(Microsoft)* — Multi-agent conversation framework. Agents collaborate, code, and debate to solve problems. CC-BY-4.0.
+
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** — Graph-based stateful agent orchestration from the LangChain team. Suited for complex, cyclic agent workflows. MIT.
+
+- **[Mastra](https://github.com/mastra-ai/mastra)** — TypeScript-native AI agent framework for web developers. Workflow automation with typed tools and integrations. MIT.
+
+- **[Kimi Claw](https://www.kimi.com/bot)** - OpenClaw is an AI assistant with personality and memory. Kimi deploys it to the cloud for you in one click—no complex setup, online 24/7.
+
+- **[MiniMax](https://www.minimaxi.com/)** — Full-stack AI platform focused on multimodal agents and consumer-scale deployment  
+  - Models: text (MiniMax-Text), reasoning, speech (TTS/STT), image, and video generation (Hailuo AI)  
+  - Strong in **real-time voice agents**, character/chat systems, and long-context interactions  
+  - Includes **agent-style workflows** with tool use, memory, and multi-step task execution  
+  - Consumer products: **Hailuo AI (video generation)**, AI chat apps, voice companions  
+  - API + platform available for building conversational agents and multimodal applications  
+
+---
+## AI Agent Tools
+
+- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** — High-performance local inference engine for LLMs and multimodal models, supporting CPU/GPU execution, quantization, and broad model compatibility.
+- **[agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research)** — Collection of prompt patterns, experiments, and research around agentic AI workflows and prompting strategies.
+- **[claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** — Official plugin resources and examples for extending Claude-based workflows.
+- **[superpowers](https://github.com/obra/superpowers)** — Tooling for giving AI systems richer capabilities and more flexible action patterns in practical workflows.
+- **[mempalace](https://github.com/milla-jovovich/mempalace)** — Memory-oriented tooling for AI agents, focused on persistent context, recall, and more structured long-term memory behavior.
 ---
 ## 🆕 Additional AI and Productivity Tools
 
@@ -931,7 +1451,28 @@ This list highlights a selection of image generation tools, featuring advanced A
 
 This list includes a range of tools for AI-powered video generation, offering capabilities from video editing to creating entirely new video content with AI.
 
-- [Sora](https://www.sora.com) - AI video generation platform from OpenAI.
+
+- **[Seedance 2.0 (ByteDance)](https://seed.bytedance.com/en/seedance)** — Multimodal AI video generation model (text, image, video, audio)
+  - Supports **multi-shot cinematic video generation with native audio and scene control**
+  - Designed for **high-quality, controllable video workflows (Sora / Veo competitor)**  
+
+  - **Access / Platforms**:
+    - **ByteDance ecosystem**:
+      - CapCut (video editing integration)
+      - Doubao (AI assistant)
+      - Dreamina (creative tools)
+    - **API / Hosted access**:
+      - [FAL.ai (Seedance 2.0)](https://fal.ai/seedance-2.0)
+      - Enterprise / cloud deployments (limited availability)
+    - **Third-party integrations**:
+      - Artlist AI Toolkit
+      - Selected AI platforms (varies, often wrapped)
+
+  - **Notes**:
+    - Not fully open globally (limited rollout / controlled access)
+    - Many public “Seedance” sites are wrappers, not official endpoints
+
+- [Sora](https://www.sora.com) - AI video generation platform from OpenAI. RIP
 - [Synthesia](https://www.synthesia.io) - AI video generation platform.
 - [RunwayML](https://runwayml.com) - AI toolkit for artists and creators.
 - [Deep Video Portraits](https://www.graphics.stanford.edu/projects/deepvideo) - AI-driven facial reenactment in videos.
