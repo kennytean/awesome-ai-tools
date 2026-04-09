@@ -827,6 +827,7 @@ This section introduces the latest AI tools that are gaining popularity and have
 - **[Dream Machine](https://lumalabs.ai/dream-machine)** – Free and public **text-to-video model** from Luma AI. Create high-quality, coherent video clips from simple text or image prompts.
 - **[Metorial](https://metorial.com)** - Connect AI agents to 600+ integrations with a single interface - OAuth, scaling, and monitoring included
 - **[RegexAI](https://regexai-six.vercel.app/)** - An AI-powered regex pattern generator that creates regular expressions from plain English descriptions with instant testing.
+- **[CronAI](https://cronai-nu.vercel.app/)** - An AI-powered cron expression generator that converts natural language scheduling descriptions into valid cron syntax instantly.
 ---
 
 - **[MidJourney](https://midjourney.com/)** – One of the most advanced tools for **AI-generated artistic images**, accessible via their site and Discord. Known for its unique stylization and creativity.
@@ -871,6 +872,7 @@ This section introduces the latest AI tools that are gaining popularity and have
 - **[RankingRider](https://www.rankingrider.com)** - AI-powered bulk SEO optimization for Shopify products via CSV.
 - **[LLM Optimizer](https://llmopt.metavert.io)** - AI brand visibility tool (like SEO for LLMs, or GEO). Measures how ChatGPT, Claude, Gemini, and Perplexity cite and recommend your brand with composite AI Visibility Scores, per-dimension analysis, and prioritized optimization recommendations.
 - **[GEOScore](https://geoscoreai.com)** - AI search visibility scanner that checks how your website performs in AI search engines (ChatGPT, Perplexity, Gemini). Runs 11 technical checks for generative engine optimization (GEO).
+- **[AuditZap](https://auditzap.io/)** - AI-powered website audit tool that runs 24 automated checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact.
 - Cited By AI® - Block-level AI citation auditing platform using the Citation Probability Score® (CPS®) framework. Scores content across 5 pillars to predict citation probability in ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews. Free CPS® Lite checker via MCP. - [citedbyai.info](https://citedbyai.info)
 - **[DoaCam](https://doacam.com)** - AI video companion with a 3D avatar that sees you through your camera, talks in real time, and remembers every conversation. Runs in browser.
 - **[AgentReady](https://agentready.site)** - AI readiness scanner that scores any website on 8 factors (llms.txt, ai.txt, schema markup, MCP protocol, bot accessibility, and more). Provides actionable recommendations, industry benchmarks, and a free public API for AI agent compatibility scoring.
