@@ -173,7 +173,7 @@ A leading AI company focused on advanced multimodal and agent-based systems. Ope
 - **Pricing Tiers**:
   - **Free** – Limited ChatGPT usage
   - **Plus (~$20/month)** – Higher limits and access to more capable models
-  - **Pro (~$200/month)** – Maximum access, higher limits, and priority performance
+  - **Pro (~100-$200/month)** – Maximum access, higher limits, and priority performance
   - **API** – Pay-as-you-go access across all model families
 ### OpenAI Codex
 
@@ -1072,8 +1072,6 @@ A growing landscape of open-source personal agents, agent frameworks, and multi-
 ### Personal / Always-On Agents
 
 - **[Claude Cowork](https://claude.ai/download)** *(Anthropic)* — Anthropic's desktop AI agent with a graphical interface. Persistent access to local files and apps, designed as a GUI-friendly complement to Claude Code (which is CLI-first). Launched January 2026. Closed-source / subscription.
-
-- **[Dassi](https://dassi.ai/)** — AI browser agent Chrome extension that automates work directly in your browser — clicks, fills forms, and navigates pages autonomously. Bring your own API key (Claude, GPT, Gemini). 14-day free trial, subscription pricing. → [Chrome Web Store](https://chromewebstore.google.com/detail/dassi-ai-browser-agent/bjcngahpcjeililljmfegmlanlpgibdi) · [Docs](https://docs.dassi.ai)
 
 - **[Perplexity Computer](https://www.perplexity.ai/hub/blog/introducing-perplexity-computer)** *(Perplexity)* — Cloud-based autonomous agent that orchestrates multiple AI models simultaneously, routing subtasks to the best-suited model — reasoning, deep research, image/video generation, and long-context recall — and can run workflows for hours or months. Max subscribers only ($200/mo). Launched Feb 25, 2026. Also see **[Personal Computer](https://www.perplexity.ai/personal-computer-waitlist)** — a companion local agent that runs on a dedicated Mac mini with always-on access to your local files, apps, and sessions, controllable from any device. Launched March 11, 2026.
 
