@@ -1006,6 +1006,7 @@ This section covers the latest AI-driven robots, ranging from quadruped robotic 
 - [vizologi.com](https://vizologi.com) - Offers a unique blend of business model canvassing and AI-driven market analysis.
 - [krater.ai](https://krater.ai) - Your SuperApp for all things Artificial Intelligence.
 - [fathom.video](https://fathom.video) - Records, transcribes, highlights, and summarizes your meetings.
+- [Convo](https://www.itsconvo.com/) - AI meeting assistant that listens in real time, helps you respond smarter on calls, and automates your follow up workflow.
 - [levity.ai](https://levity.ai) - Automates data entry, rate lookup, and even drafts email responses—all without leaving your inbox.
 - [Logicballs](https://logicballs.com) - An AI-powered writing tool to create any type of content and supercharge your productivity.
 - [TextCraft](https://github.com/suncloudsmoon/TextCraft) - Add-in for Microsoft Word that seamlessly integrates essential AI tools, including text generation, proofreading, and more, directly into the user interface.
